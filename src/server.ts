@@ -1,4 +1,5 @@
-import { App } from "./app";
+import App from "./app";
 
-let app = new App();
+const app = new App(3000);
+app.startServer();
 
